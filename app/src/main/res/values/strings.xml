@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">小知世</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_person">我的</string>
+    <string name="title_activity_zhishi">知世</string>
+    <string name="title_activity_message">消息</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="user_name">咸蛋黄焗虾仁玉米</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="personal">个人中心</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="slogan">|二刺螈狗|三次元腐宅|吃PhotoShop长大|</string>
+    <string name="following">关注</string>
+    <string name="follower">粉丝</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="banner_button1">服装设计大赛</string>
+    <string name="banner_button2">周边设计大赛</string>
+    <string name="banner_button3">胶带设计大赛</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">搜索</string>
+
+</resources>

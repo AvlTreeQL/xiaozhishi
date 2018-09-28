@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:androids="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    androids:layout_width="match_parent"
+    androids:layout_height="match_parent"
+    androids:orientation="vertical"
+    androids:id="@+id/root">
+
+    <ImageView
+        androids:id="@+id/imageView2"
+        androids:layout_width="wrap_content"
+        androids:layout_height="43dp"
+        androids:layout_x="0dp"
+        androids:layout_y="0dp"
+        androids:scaleType="centerCrop"
+        app:srcCompat="@drawable/personal" />
+
+    <RelativeLayout
+        androids:id="@+id/up"
+        androids:layout_width="match_parent"
+        androids:layout_height="163dp"
+        androids:layout_x="0px"
+        androids:layout_y="0px"
+        androids:background="@drawable/icon_banner"
+        androids:orientation="vertical">
+
+        <Button
+            androids:id="@+id/imageView10"
+            androids:layout_width="99dp"
+            androids:layout_height="103dp"
+            androids:layout_centerInParent="true"
+            androids:background="@drawable/icon" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        androids:layout_width="match_parent"
+        androids:layout_height="90dp"
+        androids:orientation="vertical"
+        androids:background="@drawable/back">
+
+        <TextView
+            androids:id="@+id/textView2"
+            androids:layout_width="match_parent"
+            androids:layout_height="wrap_content"
+            androids:layout_marginTop="12dp"
+            androids:gravity="center_horizontal"
+            androids:text="@string/user_name"
+            androids:textColor="@color/headline_bule"
+            androids:textSize="15dp" />
+
+        <TextView
+            androids:id="@+id/textView3"
+            androids:layout_width="match_parent"
+            androids:layout_height="wrap_content"
+            androids:text="@string/slogan"
+            androids:textColor="@color/gray"
+            androids:gravity="center_horizontal"
+            androids:textSize="12dp"/>
+
+        <LinearLayout
+            androids:layout_width="match_parent"
+            androids:layout_height="20dp"
+            androids:orientation="horizontal"
+            androids:layout_marginTop="12dp">
+
+            <TextView
+                androids:id="@+id/textView4"
+                androids:layout_width="wrap_content"
+                androids:layout_height="wrap_content"
+                androids:text="@string/following"
+                androids:textColor="@color/balck"
+                androids:textSize="15dp"
+                androids:paddingLeft="120dp"/>
+
+            <TextView
+                androids:id="@+id/textView5"
+                androids:layout_width="wrap_content"
+                androids:layout_height="wrap_content"
+                androids:layout_weight="1"
+                androids:text="@string/follower"
+                androids:paddingLeft="40dp"
+                androids:textColor="@color/balck"
+                androids:textSize="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        androids:layout_width="match_parent"
+        androids:layout_height="match_parent"
+        androids:orientation="vertical">
+
+
+        <Button
+            androids:id="@+id/button8"
+            androids:layout_width="320dip"
+            androids:layout_height="45dip"
+            androids:gravity="center_vertical"
+            androids:paddingLeft="50dip"
+            androids:layout_gravity="center_horizontal"
+            androids:layout_marginTop="15dp"
+            androids:background="@drawable/collect_button"
+            androids:text="收藏" />
+
+        <Button
+            androids:id="@+id/button9"
+            androids:layout_width="320dip"
+            androids:layout_height="45dip"
+            androids:gravity="center_vertical"
+            androids:layout_gravity="center_horizontal"
+            androids:paddingLeft="50dip"
+            androids:background="@drawable/order_button"
+            androids:text="" />
+
+        <Button
+            androids:id="@+id/button10"
+            androids:layout_width="320dip"
+            androids:layout_height="45dip"
+            androids:layout_gravity="center_horizontal"
+            androids:background="@drawable/designer_button"
+            androids:gravity="center_vertical"
+            androids:paddingLeft="50dip"
+            androids:text="" />
+
+        <Button
+            androids:id="@+id/button11"
+            androids:layout_width="320dip"
+            androids:layout_height="45dip"
+            androids:gravity="center_vertical"
+            androids:paddingLeft="50dip"
+            androids:layout_gravity="center_horizontal"
+            androids:background="@drawable/store_button"
+            androids:text="" />
+
+        <Button
+            androids:id="@+id/button12"
+            androids:layout_width="320dip"
+            androids:layout_height="45dip"
+            androids:gravity="center_vertical"
+            androids:paddingLeft="50dip"
+            androids:layout_gravity="center_horizontal"
+            androids:background="@drawable/settings_button"
+            androids:text="" />
+    </LinearLayout>
+
+</LinearLayout>
